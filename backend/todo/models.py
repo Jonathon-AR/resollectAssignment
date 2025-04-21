@@ -1,7 +1,7 @@
 from django.db import models
 import uuid
 
-class Task(models.model):
+class Task(models.Model):
     STATUS_CHOICES = [
         ("ongoing", "Ongoing"),
         ("success", "Success"),
